@@ -1,0 +1,18 @@
+structure_lint: draft-v3.md (format guide)
+| Item | Result | Line | Detail |
+|---|---|---|---|
+| title | PASS | 1 | 63 chars (max 70) |
+| description | PASS | 1 | 155 chars (max 155) |
+| summary block | PASS | 10 | 4 bullets (want 3-5) |
+| headings | PASS | 17 | 6 H2 (max 6, summary block not counted) |
+| template | PASS | - | has When this does not apply |
+| hook | PASS | 8 | opening is not a definition or throat-clearing |
+| code and media | PASS | - | labelled |
+| paragraphs | PASS | - | all within 4 sentences |
+| length | PASS | - | 731 words (band 700-1600) |
+| close | PASS | 62 | last H2 'Run your last month through the checklist' |
+| cta count | PASS | - | 1 links to the CTA url (want 1-2) |
+| punctuation and padding | PASS | - | none |
+| banned words | PASS | - | none of the profile's banned list |
+
+0 FAIL, 13 PASS

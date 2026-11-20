@@ -1,0 +1,18 @@
+structure_lint: draft-v1.md (format guide)
+| Item | Result | Line | Detail |
+|---|---|---|---|
+| title | FAIL | 1 | 81 chars (max 70); banned opener |
+| description | FAIL | 1 | 169 chars (max 155) |
+| summary block | PASS | 10 | 4 bullets (want 3-5) |
+| headings | FAIL | 17 | 6 H2 (max 6); banned: line 17 'Introduction', line 49 'Conclusion' |
+| template | FAIL | - | missing: When this does not apply |
+| hook | FAIL | 8 | opens with 'Month-end close is the' |
+| code and media | FAIL | 35 | code without language at [35] |
+| paragraphs | FAIL | 19 | line 19: 9 sentences (max 4) |
+| length | FAIL | - | 437 words (band 700-1600) |
+| close | FAIL | 49 | last H2 'Conclusion' |
+| cta count | PASS | - | 1 links to the CTA url (want 1-2) |
+| punctuation and padding | FAIL | 19 | '!' at lines [19]; padding: Additionally (line 19), It is worth noting (line 19) |
+| banned words | FAIL | - | found: seamless, best-in-class |
+
+11 FAIL, 2 PASS

@@ -1,0 +1,306 @@
+{
+  "round": 3,
+  "verdict": "FIX",
+  "reasons": [
+    "13 recommended findings (limit 5)"
+  ],
+  "items": [
+    {
+      "editor": "format",
+      "severity": "recommended",
+      "line": 23,
+      "quote": "Put the receipt count on the same Tuesday slot as the bank match in Step 2.",
+      "issue": "A step in a follow-in-order guide depends on a later step the reader has not reached yet.",
+      "fix": "Move the Tuesday-slot instruction into Step 2, or say in Step 1 only that a weekly check comes in Step 2.",
+      "editors": [
+        "format"
+      ],
+      "fixes": [
+        [
+          "format",
+          "Move the Tuesday-slot instruction into Step 2, or say in Step 1 only that a weekly check comes in Step 2."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 8,
+      "quote": "One pilot firm spent 9 working days on its month-end close.",
+      "issue": "Proof supports 9 working days only as the median across 14 firms, not as one firm's figure. The scan marks it sourced via a sources file I cannot see.",
+      "fix": "Cite the source for this specific firm, or reword to the median pilot firm.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Cite the source for this specific firm, or reword to the median pilot firm."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 8,
+      "quote": "The owner saw the month's numbers on calendar day 10, a third of the way into the next month.",
+      "issue": "No source. 9 working days from the 1st ends on calendar day 11 at the earliest, so day 10 does not reconcile unless the close starts before month end.",
+      "fix": "State when the close clock starts, or correct the calendar day, and name the source.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "State when the close clock starts, or correct the calendar day, and name the source."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 8,
+      "quote": "None of the four changes requires new software.",
+      "issue": "Unsourced absolute not in the Proof section.",
+      "fix": "Back it with the pilot report or soften to a claim the draft can support.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Back it with the pilot report or soften to a claim the draft can support."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 8,
+      "quote": "the median close went from 9 working days to 5 after four changes",
+      "issue": "Proof gives the before and after medians, not that the four changes caused the drop. The title and description repeat this causal framing.",
+      "fix": "Confirm attribution in the pilot report or word it as before and after, with the four changes as what the firms did.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Confirm attribution in the pilot report or word it as before and after, with the four changes as what the firms did."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 12,
+      "quote": "the chasing behind the 31% of lines that had no receipt.",
+      "issue": "Drops the scope in Proof: pilot customers' expense lines on day 1 of close. Reads as a general rate.",
+      "fix": "Add \"in our pilot, on day 1 of close\" or link the figure here.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Add \"in our pilot, on day 1 of close\" or link the figure here."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 19,
+      "quote": "the shoebox was where a lot of month-end time went",
+      "issue": "Time spent on receipts is not in Proof, which measures missing receipts only. Also vague.",
+      "fix": "Cite a time figure or reword to what Proof measures: 31% of lines had no receipt.",
+      "editors": [
+        "claims",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Cite a time figure or reword to what Proof measures: 31% of lines had no receipt."
+        ],
+        [
+          "voice",
+          "In our pilot, 31% of expense lines had no receipt on the first day of close."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 33,
+      "quote": "Two lines will keep coming back: card refunds that land weeks after the purchase",
+      "issue": "Stated as universal fact with no basis.",
+      "fix": "Add \"in our experience\" or cite the pilot.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Add \"in our experience\" or cite the pilot."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 45,
+      "quote": "Payroll and accruals depend on a clean bank match, so doing them first means doing them twice.",
+      "issue": "Unsourced technical claim that carries Step 3's argument for the order; payroll journals often do not depend on the bank match.",
+      "fix": "Give the concrete dependency or frame it as the team's practice.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Give the concrete dependency or frame it as the team's practice."
+        ]
+      ]
+    },
+    {
+      "editor": "icp",
+      "severity": "recommended",
+      "line": 8,
+      "quote": "Across the 14 firms in our",
+      "issue": "First screen does not say who the firms are, so the target reader cannot confirm the advice is for a small service business like theirs.",
+      "fix": "Add one clause in the opening paragraph naming the segment: small service businesses of 10 to 60 people still closing in spreadsheets.",
+      "editors": [
+        "icp"
+      ],
+      "fixes": [
+        [
+          "icp",
+          "Add one clause in the opening paragraph naming the segment: small service businesses of 10 to 60 people still closing in spreadsheets."
+        ]
+      ]
+    },
+    {
+      "editor": "icp",
+      "severity": "recommended",
+      "line": 42,
+      "quote": "accountant's list sent (it goes out on day 2, before the lines above are done)",
+      "issue": "The checklist is sold as 'same order every month', but this line is listed last and sent on day 2. The reader cannot tell when to tick it.",
+      "fix": "Move the line to the top of the checklist marked '(day 2)', or label it as the one out-of-order item.",
+      "editors": [
+        "icp",
+        "voice",
+        "format",
+        "claims"
+      ],
+      "fixes": [
+        [
+          "icp",
+          "Move the line to the top of the checklist marked '(day 2)', or label it as the one out-of-order item."
+        ],
+        [
+          "voice",
+          "[ ] accountant's list sent on day 2, before the lines above are done"
+        ],
+        [
+          "format",
+          "Put the accountant's list first in the checklist with a day-2 label, or add a one-line note that it is out of sequence on purpose."
+        ],
+        [
+          "claims",
+          "State the unit once, in Step 4."
+        ]
+      ]
+    },
+    {
+      "editor": "voice",
+      "severity": "recommended",
+      "line": 57,
+      "quote": "Under a few dozen bank lines a month, in our judgement",
+      "issue": "Vague, unsourced number; she always gives the exact figure with its source.",
+      "fix": "Count your bank lines for one month first. If the count is small, a weekly match is overhead; we did not measure a cut-off.",
+      "editors": [
+        "voice"
+      ],
+      "fixes": [
+        [
+          "voice",
+          "Count your bank lines for one month first. If the count is small, a weekly match is overhead; we did not measure a cut-off."
+        ]
+      ]
+    },
+    {
+      "editor": "voice",
+      "severity": "recommended",
+      "line": 60,
+      "quote": "No routine survives books that don't tie out.",
+      "issue": "Section ends on a general statement, not a plain instruction as her sections do.",
+      "fix": "Fix the chart of accounts first; no routine survives books that don't tie out.",
+      "editors": [
+        "voice",
+        "claims"
+      ],
+      "fixes": [
+        [
+          "voice",
+          "Fix the chart of accounts first; no routine survives books that don't tie out."
+        ],
+        [
+          "claims",
+          "Soften to \"is hard to keep up\"."
+        ]
+      ]
+    },
+    {
+      "editor": "icp",
+      "severity": "minor",
+      "line": 23,
+      "quote": "Here is the part nobody tells you",
+      "issue": "Mild hype phrasing that is off the deadpan peer voice this reader trusts.",
+      "fix": "Replace with 'The catch:' or state the weekly check directly.",
+      "editors": [
+        "icp"
+      ],
+      "fixes": [
+        [
+          "icp",
+          "Replace with 'The catch:' or state the weekly check directly."
+        ]
+      ]
+    },
+    {
+      "editor": "icp",
+      "severity": "minor",
+      "line": 57,
+      "quote": "a weekly match is overhead",
+      "issue": "'Overhead' is generic; the reader would say it costs more time than it saves.",
+      "fix": "Rewrite as 'a weekly match costs more time than it saves'.",
+      "editors": [
+        "icp"
+      ],
+      "fixes": [
+        [
+          "icp",
+          "Rewrite as 'a weekly match costs more time than it saves'."
+        ]
+      ]
+    },
+    {
+      "editor": "voice",
+      "severity": "minor",
+      "line": 59,
+      "quote": "Steps 1 and 4 still help; Steps 2 and 3 are theirs.",
+      "issue": "Semicolon-joined clauses; she writes short sentences.",
+      "fix": "Steps 1 and 4 still help. Steps 2 and 3 are theirs.",
+      "editors": [
+        "voice"
+      ],
+      "fixes": [
+        [
+          "voice",
+          "Steps 1 and 4 still help. Steps 2 and 3 are theirs."
+        ]
+      ]
+    }
+  ]
+}

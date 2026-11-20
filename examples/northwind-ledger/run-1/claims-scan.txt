@@ -1,0 +1,15 @@
+claims_scan: draft-v1.md, 9 claims, 7 not sourced
+| Line | Kind | Status | Claim |
+|---|---|---|---|
+| 19 | vague | vague | Most teams spend far too long on month-end. |
+| 19 | number, research | unsourced | Studies show that small businesses lose 50% of their finance time to manual work. |
+| 19 | number | unsourced | With Northwind Ledger, teams cut close time in half! |
+| 19 | superlative | unsourced | Our reconciliation module is the fastest way to tie out your accounts. |
+| 19 | number | sourced via sources file | The median close in our pilot went from 9 working days to 5. |
+| 23 | number, superlative | sourced via sources file | In our pilot, 31% of expense lines had no receipt on the first day of close. |
+| 29 | number | unsourced | Weekly, it is a 20-minute job, and the odd line is still fresh in someone's memory. |
+| 43 | number, vague | unsourced | Most teams that close in 7 working days follow a list like this one. |
+| 51 | superlative | unsourced | Northwind Ledger is the best-in-class tool to help you do all of it. [Start your free close checklist](https://example.org/start). |
+
+Same metric, different figures (check which is right):
+- working days: 7 (line 43), 9 (line 19)

@@ -1,0 +1,7 @@
+claims_scan: draft-v2.md, 4 claims, 0 not sourced
+| Line | Kind | Status | Claim |
+|---|---|---|---|
+| 8 | number | sourced via sources file | One pilot team spent 9 working days on their month-end close. |
+| 8 | number | sourced via sources file | The owner saw real numbers on day 10, a third of the way into the next month. |
+| 8 | number | sourced via link | Across the 14 firms in our [pilot](https://example.org/pilot-report), the median close went from 9 working days to 5 after four changes. |
+| 19 | number | sourced via link | In our pilot, 31% of expense lines had no receipt on the first day of close ([pilot report](https://example.org/pilot-report), 14 firms, April 2026). |

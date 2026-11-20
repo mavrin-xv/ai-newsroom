@@ -1,0 +1,12 @@
+{
+  "draft": "examples/northwind-ledger/draft-v3.md",
+  "format": "guide",
+  "author": "Mara Quinn",
+  "editors": [
+    "format",
+    "structure",
+    "voice",
+    "icp",
+    "claims"
+  ]
+}

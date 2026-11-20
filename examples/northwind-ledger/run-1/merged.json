@@ -1,0 +1,530 @@
+{
+  "round": 1,
+  "verdict": "REWRITE",
+  "reasons": [
+    "14 blocking findings from structure + claims"
+  ],
+  "items": [
+    {
+      "editor": "format",
+      "severity": "blocking",
+      "line": 0,
+      "quote": "",
+      "issue": "The guide format requires a 'When this does not apply' section and the draft has none; it ends on a Conclusion instead.",
+      "fix": "Replace the Conclusion h2 with 'When this does not apply' listing who should skip these steps, then end on the CTA.",
+      "editors": [
+        "format"
+      ],
+      "fixes": [
+        [
+          "format",
+          "Replace the Conclusion h2 with 'When this does not apply' listing who should skip these steps, then end on the CTA."
+        ]
+      ]
+    },
+    {
+      "editor": "format",
+      "severity": "blocking",
+      "line": 0,
+      "quote": "",
+      "issue": "The draft is roughly 450 words, below the 700 minimum for a guide.",
+      "fix": "Add substance to the steps (owners, what to do with unmatched lines), not to the introduction.",
+      "editors": [
+        "format"
+      ],
+      "fixes": [
+        [
+          "format",
+          "Add substance to the steps (owners, what to do with unmatched lines), not to the introduction."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "blocking",
+      "line": 19,
+      "quote": "Studies show that small businesses lose 50% of their finance time to manual work.",
+      "issue": "Unnamed 'studies' and a suspiciously round 50% with no source, carrying the intro's argument. Not in the Proof table.",
+      "fix": "Cite and link the original study, or delete the sentence.",
+      "editors": [
+        "claims",
+        "icp",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Cite and link the original study, or delete the sentence."
+        ],
+        [
+          "icp",
+          "Cite the study or replace it with the pilot's own 31% no-receipt figure."
+        ],
+        [
+          "voice",
+          "Name the study and year, or replace with a pilot figure: 'In our pilot, 31% of expense lines had no receipt on day one.'"
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "blocking",
+      "line": 19,
+      "quote": "With Northwind Ledger, teams cut close time in half!",
+      "issue": "Contradicts Proof: the pilot median went from 9 to 5 working days (44%), not half, and it is a pilot of 14 customers, not all teams.",
+      "fix": "Replace with the pilot figure as stated: median close cut from 9 to 5 working days in the pilot, linked to the pilot report.",
+      "editors": [
+        "claims",
+        "icp",
+        "voice",
+        "format"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Replace with the pilot figure as stated: median close cut from 9 to 5 working days in the pilot, linked to the pilot report."
+        ],
+        [
+          "icp",
+          "Move the product mention to the end and state the pilot result as measured: median close 9 to 5 working days."
+        ],
+        [
+          "voice",
+          "With Northwind Ledger, the median close in our pilot went from 9 working days to 5."
+        ],
+        [
+          "format",
+          "Cut the introduction to two or three sentences that state the outcome, then go to Step 1; leave the product mention to the CTA."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "blocking",
+      "line": 19,
+      "quote": "Our reconciliation module is the fastest way to tie out your accounts.",
+      "issue": "Brand superlative with no method, comparison or source.",
+      "fix": "Delete it, or replace it with a measured, dated claim that is in Proof.",
+      "editors": [
+        "claims",
+        "icp",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Delete it, or replace it with a measured, dated claim that is in Proof."
+        ],
+        [
+          "icp",
+          "Use 'bank match' and describe what it does; remove the superlative."
+        ],
+        [
+          "voice",
+          "Cut the sentence, or: Our reconciliation module matched 1 week of lines in 20 minutes in the pilot."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "blocking",
+      "line": 43,
+      "quote": "Most teams that close in 7 working days follow a list like this one.",
+      "issue": "Unsourced 'most teams' stat. The 7 is not in Proof and sits beside the draft's 9 and 5, giving three different working-day figures.",
+      "fix": "Remove the sentence, or source it and state clearly what 7 days measures.",
+      "editors": [
+        "claims",
+        "icp",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Remove the sentence, or source it and state clearly what 7 days measures."
+        ],
+        [
+          "icp",
+          "Cite where it comes from or say 'in our pilot'."
+        ],
+        [
+          "voice",
+          "Say where 7 came from, e.g. 'In our pilot, the teams that closed in 7 working days used a list like this one.'"
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "blocking",
+      "line": 51,
+      "quote": "Northwind Ledger is the best-in-class tool to help you do all of it.",
+      "issue": "Brand superlative with no method, and 'best-in-class' is on the profile's Banned list.",
+      "fix": "Replace with a factual description of what the product does, with no ranking claim.",
+      "editors": [
+        "claims",
+        "icp",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Replace with a factual description of what the product does, with no ranking claim."
+        ],
+        [
+          "icp",
+          "Replace with one concrete sentence on what the product does for steps 1 and 2."
+        ],
+        [
+          "voice",
+          "End on an instruction: 'Print the checklist and run it on the next close.'"
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "blocking",
+      "line": 0,
+      "quote": "",
+      "issue": "Required guide section 'When this does not apply' is missing, so the template (summary, steps, limits, CTA) is incomplete.",
+      "fix": "Add an H2 'When this does not apply' after Step 4 and before the close, stating who this routine will not help.",
+      "editors": [
+        "structure"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Add an H2 'When this does not apply' after Step 4 and before the close, stating who this routine will not help."
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "blocking",
+      "line": 0,
+      "quote": "",
+      "issue": "Draft is about 437 words, under the 700-1600 band for a guide.",
+      "fix": "Add the missing limits section and develop the steps with pilot numbers until the draft sits inside the band.",
+      "editors": [
+        "structure"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Add the missing limits section and develop the steps with pilot numbers until the draft sits inside the band."
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "blocking",
+      "line": 2,
+      "quote": "The Ultimate Guide to Closing Your Books Faster With a Seamless Month-End Process",
+      "issue": "Title is about 81 characters (limit 70) and uses the banned 'Ultimate' and 'Guide to'; it names a topic, not an outcome.",
+      "fix": "Replace with an outcome title under 70 characters, for example one that states how many working days the close drops by.",
+      "editors": [
+        "structure",
+        "icp",
+        "voice",
+        "format",
+        "claims"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Replace with an outcome title under 70 characters, for example one that states how many working days the close drops by."
+        ],
+        [
+          "icp",
+          "Drop 'Ultimate' and 'Seamless'; use a plain promise such as 'How to close the month in 5 working days' in both title and H1."
+        ],
+        [
+          "voice",
+          "Title in her plain way, e.g. 'How to close your books in 5 working days'."
+        ],
+        [
+          "voice",
+          "Match the corrected frontmatter title, no 'Ultimate', no 'seamless'."
+        ],
+        [
+          "format",
+          "Name the outcome, for example the number of working days the close drops to."
+        ],
+        [
+          "claims",
+          "Soften, for example 'A Practical Guide to Closing Your Books Faster'."
+        ]
+      ],
+      "conflict": true
+    },
+    {
+      "editor": "structure",
+      "severity": "blocking",
+      "line": 3,
+      "quote": "Learn how small service businesses can close the books faster",
+      "issue": "Description is about 169 characters (limit 155) and reads as a feature list.",
+      "fix": "Cut to 155 characters or fewer, one clickable sentence that leads with the 9-to-5 working-day result.",
+      "editors": [
+        "structure"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Cut to 155 characters or fewer, one clickable sentence that leads with the 9-to-5 working-day result."
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "blocking",
+      "line": 8,
+      "quote": "Month-end close is the process of reviewing, reconciling and finalising",
+      "issue": "Hook is a definition. It has no specific number, unseen failure or counter-claim.",
+      "fix": "Open with the pilot number, that the median close fell from 9 working days to 5, or that 31% of expense lines had no receipt on day one.",
+      "editors": [
+        "structure",
+        "icp",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Open with the pilot number, that the median close fell from 9 working days to 5, or that 31% of expense lines had no receipt on day one."
+        ],
+        [
+          "icp",
+          "Delete the definition; open with the reader's own problem (the shoebox, the accountant waiting until day 6)."
+        ],
+        [
+          "voice",
+          "One customer month-end number first, e.g. 'One pilot team spent 9 working days on close. The owner saw real numbers on day 10.'"
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "blocking",
+      "line": 17,
+      "quote": "## Introduction",
+      "issue": "Banned H2 name. The draft also has 7 H2s against the max of 6 (the lint's 6 is wrong).",
+      "fix": "Delete the Introduction section, move its one usable fact into the hook, and bring the total to 6 H2s or fewer.",
+      "editors": [
+        "structure"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Delete the Introduction section, move its one usable fact into the hook, and bring the total to 6 H2s or fewer."
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "blocking",
+      "line": 19,
+      "quote": "Most teams spend far too long on month-end.",
+      "issue": "Paragraph runs 9 sentences against a cap of 4, a wall of text.",
+      "fix": "Split or cut to 4 sentences or fewer. Most of it is dropped with the Introduction section.",
+      "editors": [
+        "structure",
+        "claims",
+        "icp",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Split or cut to 4 sentences or fewer. Most of it is dropped with the Introduction section."
+        ],
+        [
+          "claims",
+          "Cut it, or back it with a figure from the pilot report."
+        ],
+        [
+          "icp",
+          "Start with a concrete scene in the reader's words, such as the shoebox on day 1 of close."
+        ],
+        [
+          "voice",
+          "The median close in our pilot took 9 working days."
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "blocking",
+      "line": 49,
+      "quote": "## Conclusion",
+      "issue": "Banned H2 name, and it is the closing section.",
+      "fix": "Rename to a heading that carries the next step, and drop the recap.",
+      "editors": [
+        "structure"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Rename to a heading that carries the next step, and drop the recap."
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "blocking",
+      "line": 51,
+      "quote": "Closing faster is not about working harder.",
+      "issue": "Close recaps the article and pitches the product instead of giving one next step. The CTA link text does not match the single ask in the CTA section.",
+      "fix": "Replace the recap with one sentence asking the reader to run last month through the free close checklist, linked once to https://example.org/start.",
+      "editors": [
+        "structure"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Replace the recap with one sentence asking the reader to run last month through the free close checklist, linked once to https://example.org/start."
+        ]
+      ]
+    },
+    {
+      "editor": "voice",
+      "severity": "blocking",
+      "line": 19,
+      "quote": "Additionally, the longer the close takes, the later",
+      "issue": "Connective padding.",
+      "fix": "The longer the close takes, the later the owner sees real numbers.",
+      "editors": [
+        "voice"
+      ],
+      "fixes": [
+        [
+          "voice",
+          "The longer the close takes, the later the owner sees real numbers."
+        ]
+      ]
+    },
+    {
+      "editor": "voice",
+      "severity": "blocking",
+      "line": 19,
+      "quote": "It is worth noting that every business is different.",
+      "issue": "Throat-clearing filler and a hedge; Mara states things directly.",
+      "fix": "Delete the sentence and the one after it.",
+      "editors": [
+        "voice",
+        "icp"
+      ],
+      "fixes": [
+        [
+          "voice",
+          "Delete the sentence and the one after it."
+        ],
+        [
+          "icp",
+          "Name real limits: weekly bank match is not worth it under a few dozen transactions a month; the card-pause rule does not cover out-of-pocket or cash spend; say when a spreadsheet is enough."
+        ]
+      ]
+    },
+    {
+      "editor": "format",
+      "severity": "recommended",
+      "line": 12,
+      "quote": "- Receipts",
+      "issue": "The summary block is four fragments with no outcomes, and it is labelled TL;DR instead of 'summary'.",
+      "fix": "Rewrite as a 'Summary' of 3 to 5 outcome bullets drawn from Steps 1 to 4.",
+      "editors": [
+        "format",
+        "structure",
+        "icp",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "format",
+          "Rewrite as a 'Summary' of 3 to 5 outcome bullets drawn from Steps 1 to 4."
+        ],
+        [
+          "structure",
+          "Rewrite each bullet as a conclusion with a number, for example 'Weekly bank matching turns a monthly slog into a 20-minute job'."
+        ],
+        [
+          "icp",
+          "Rewrite each as the rule: receipt the day it is spent, match the bank weekly, one checklist in one order, send the accountant's list on day 2."
+        ],
+        [
+          "voice",
+          "Three items: photograph receipts the day of spend, match the bank weekly, use one checklist in the same order."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 19,
+      "quote": "The median close in our pilot went from 9 working days to 5.",
+      "issue": "Matches Proof, but the reader cannot check it: no link, sample size or date next to it.",
+      "fix": "Add the link https://example.org/pilot-report plus '14 customers' and 'April 2026'.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Add the link https://example.org/pilot-report plus '14 customers' and 'April 2026'."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 29,
+      "quote": "Weekly, it is a 20-minute job",
+      "issue": "Specific time figure with no basis or source.",
+      "fix": "Frame it as an example ('often about 20 minutes for a small ledger') or give the basis.",
+      "editors": [
+        "claims",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Frame it as an example ('often about 20 minutes for a small ledger') or give the basis."
+        ],
+        [
+          "voice",
+          "Add 'in our pilot' after the number."
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "recommended",
+      "line": 35,
+      "quote": "",
+      "issue": "Code fence has no language label. The quote is under the 3-word minimum because the line is only the fence.",
+      "fix": "Label the fence, for example ```text, so the checklist copies cleanly.",
+      "editors": [
+        "structure"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Label the fence, for example ```text, so the checklist copies cleanly."
+        ]
+      ]
+    },
+    {
+      "editor": "icp",
+      "severity": "minor",
+      "line": 8,
+      "quote": "reviewing, reconciling and finalising a company's accounts",
+      "issue": "British spelling 'finalising' next to a US-style product voice; moot if the sentence is cut.",
+      "fix": "Cut the sentence; otherwise match one spelling convention.",
+      "editors": [
+        "icp"
+      ],
+      "fixes": [
+        [
+          "icp",
+          "Cut the sentence; otherwise match one spelling convention."
+        ]
+      ]
+    }
+  ]
+}

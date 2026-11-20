@@ -1,0 +1,353 @@
+{
+  "round": 2,
+  "verdict": "FIX",
+  "reasons": [
+    "1 blocking finding(s)",
+    "13 recommended findings (limit 5)"
+  ],
+  "items": [
+    {
+      "editor": "format",
+      "severity": "blocking",
+      "line": 62,
+      "quote": "## Run your last month through the checklist",
+      "issue": "The draft has 7 h2 headings (Summary, Steps 1-4, When this does not apply, this CTA); the guide format allows at most 6.",
+      "fix": "Remove this h2 and make the CTA a closing paragraph under the limits section, or an unheaded final paragraph, so the count is 6.",
+      "editors": [
+        "format",
+        "structure"
+      ],
+      "fixes": [
+        [
+          "format",
+          "Remove this h2 and make the CTA a closing paragraph under the limits section, or an unheaded final paragraph, so the count is 6."
+        ],
+        [
+          "structure",
+          "Turn the line 10 '## Summary' into a bold label rather than an H2 (or merge Steps 3 and 4 into one H2) so the H2 count is 6."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 2,
+      "quote": "How to close your books in 5 working days instead of 9",
+      "issue": "A pilot median is presented as the reader's outcome.",
+      "fix": "Add 'median' or 'in our pilot' to the title.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Add 'median' or 'in our pilot' to the title."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 3,
+      "quote": "took 14 small service firms from a 9-day close to 5",
+      "issue": "Proof says 14 pilot customers; 'small service firms' is unsourced and 'took' implies causation.",
+      "fix": "Use '14 pilot customers' or source the firm profile.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Use '14 pilot customers' or source the firm profile."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 8,
+      "quote": "The owner saw real numbers on day 10",
+      "issue": "Unsourced anecdote; 9 working days is about calendar day 11 to 13, and day 10 is not 'a third' of working days. The scan's 'sourced via sources file' is not checkable by the reader.",
+      "fix": "Link or label the case as illustrative, and state working vs calendar day.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Link or label the case as illustrative, and state working vs calendar day."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 8,
+      "quote": "None of them needs new software.",
+      "issue": "Absolute claim about all firms with no source.",
+      "fix": "Cite the pilot report or say 'None of the four changes requires new software'.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Cite the pilot report or say 'None of the four changes requires new software'."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 12,
+      "quote": "it removes most of the chasing",
+      "issue": "'Most' cannot be checked.",
+      "fix": "Replace with the pilot figure or drop 'most'.",
+      "editors": [
+        "claims",
+        "voice"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Replace with the pilot figure or drop 'most'."
+        ],
+        [
+          "voice",
+          "it removes the chasing behind the 31% of lines that had no receipt."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 19,
+      "quote": "The shoebox is where month-end time goes.",
+      "issue": "Unmeasured claim about where time goes.",
+      "fix": "Qualify as pilot observation or support with data.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Qualify as pilot observation or support with data."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 21,
+      "quote": "It works because the cost lands on the person who can fix it.",
+      "issue": "Causal claim stated as fact, no evidence.",
+      "fix": "Cite pilot evidence or frame as reasoning.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Cite pilot evidence or frame as reasoning."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "recommended",
+      "line": 42,
+      "quote": "[ ] accountant's list sent",
+      "issue": "Checklist puts the list last after payroll and accruals, contradicting Step 4 (send on day 2, before everything is finished).",
+      "fix": "Reconcile the checklist order with the day-2 instruction.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Reconcile the checklist order with the day-2 instruction."
+        ]
+      ]
+    },
+    {
+      "editor": "icp",
+      "severity": "recommended",
+      "line": 23,
+      "quote": "Here is the part nobody tells you:",
+      "issue": "Teaser opener reads as content-marketing tone; this reader skims past it and it mildly undercuts the plain, peer voice of the rest.",
+      "fix": "State the point directly: 'The rule only holds if someone checks it weekly.'",
+      "editors": [
+        "icp"
+      ],
+      "fixes": [
+        [
+          "icp",
+          "State the point directly: 'The rule only holds if someone checks it weekly.'"
+        ]
+      ]
+    },
+    {
+      "editor": "icp",
+      "severity": "recommended",
+      "line": 31,
+      "quote": "the weekly slot is short",
+      "issue": "No figure for the weekly match time; the operations lead needs a number to defend the routine to the owner.",
+      "fix": "Give the pilot's typical weekly time if the data supports it, otherwise say plainly that it is unmeasured and the reader should time their own.",
+      "editors": [
+        "icp",
+        "voice",
+        "claims"
+      ],
+      "fixes": [
+        [
+          "icp",
+          "Give the pilot's typical weekly time if the data supports it, otherwise say plainly that it is unmeasured and the reader should time their own."
+        ],
+        [
+          "voice",
+          "For a firm with 300 lines a month, the weekly slot took N minutes in the pilot (source). Replace N and 300 with the pilot figures."
+        ],
+        [
+          "claims",
+          "Give a pilot time or drop the claim."
+        ]
+      ]
+    },
+    {
+      "editor": "voice",
+      "severity": "recommended",
+      "line": 51,
+      "quote": "(a new hire, a large one-off purchase, a refund)",
+      "issue": "Bracketed aside; the profile allows no asides in brackets.",
+      "fix": "Anything unusual this month: a new hire, a large one-off purchase, a refund.",
+      "editors": [
+        "voice"
+      ],
+      "fixes": [
+        [
+          "voice",
+          "Anything unusual this month: a new hire, a large one-off purchase, a refund."
+        ]
+      ]
+    },
+    {
+      "editor": "voice",
+      "severity": "recommended",
+      "line": 53,
+      "quote": "and day 2 stops feeling early.",
+      "issue": "Section ends on a feeling, not a plain instruction.",
+      "fix": "Cut the clause and end on: Ask the accountant to answer in the same document, line by line.",
+      "editors": [
+        "voice"
+      ],
+      "fixes": [
+        [
+          "voice",
+          "Cut the clause and end on: Ask the accountant to answer in the same document, line by line."
+        ]
+      ]
+    },
+    {
+      "editor": "voice",
+      "severity": "recommended",
+      "line": 57,
+      "quote": "Under a few dozen bank lines a month, a weekly match is overhead.",
+      "issue": "Rounded, unsourced threshold.",
+      "fix": "Under 40 bank lines a month (state the pilot basis), a weekly match is overhead.",
+      "editors": [
+        "voice"
+      ],
+      "fixes": [
+        [
+          "voice",
+          "Under 40 bank lines a month (state the pilot basis), a weekly match is overhead."
+        ]
+      ]
+    },
+    {
+      "editor": "claims",
+      "severity": "minor",
+      "line": 53,
+      "quote": "By month three the list gets shorter",
+      "issue": "Prediction with no data.",
+      "fix": "Mark as experience or cite pilot data.",
+      "editors": [
+        "claims"
+      ],
+      "fixes": [
+        [
+          "claims",
+          "Mark as experience or cite pilot data."
+        ]
+      ]
+    },
+    {
+      "editor": "structure",
+      "severity": "minor",
+      "line": 0,
+      "quote": "",
+      "issue": "Length sits at the floor of the 700-1600 band (lint 723; roughly 700 without H1 and code block), leaving no margin.",
+      "fix": "Keep the word count above 700 when applying any fixes.",
+      "editors": [
+        "structure"
+      ],
+      "fixes": [
+        [
+          "structure",
+          "Keep the word count above 700 when applying any fixes."
+        ]
+      ]
+    },
+    {
+      "editor": "icp",
+      "severity": "minor",
+      "line": 8,
+      "quote": "a third of the way into the next month",
+      "issue": "Day 10 in working days is about half a month; a careful reader may stop on the arithmetic.",
+      "fix": "Say 'in the second week of the next month' or state calendar days.",
+      "editors": [
+        "icp"
+      ],
+      "fixes": [
+        [
+          "icp",
+          "Say 'in the second week of the next month' or state calendar days."
+        ]
+      ]
+    },
+    {
+      "editor": "icp",
+      "severity": "minor",
+      "line": 60,
+      "quote": "No routine survives a ledger nobody trusts.",
+      "issue": "Generic phrasing where the reader has a native one.",
+      "fix": "Use 'books that don't tie out'.",
+      "editors": [
+        "icp"
+      ],
+      "fixes": [
+        [
+          "icp",
+          "Use 'books that don't tie out'."
+        ]
+      ]
+    },
+    {
+      "editor": "voice",
+      "severity": "minor",
+      "line": 45,
+      "quote": "After two months you will see which step eats the time.",
+      "issue": "Step ends on a forecast, not a plain instruction.",
+      "fix": "Write the day each line was done; after two months, cut the step that eats the time.",
+      "editors": [
+        "voice"
+      ],
+      "fixes": [
+        [
+          "voice",
+          "Write the day each line was done; after two months, cut the step that eats the time."
+        ]
+      ]
+    }
+  ]
+}

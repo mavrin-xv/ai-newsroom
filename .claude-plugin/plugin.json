@@ -1,0 +1,12 @@
+{
+  "name": "ai-newsroom",
+  "description": "An editorial desk as agent skills: five blind editors (format, structure, voice, reader fit, claims) and a chief editor who returns one fix list and a SHIP, FIX or REWRITE verdict, plus an article producer and an X long-form writer, all driven by one brand profile.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Artem Mavrin",
+    "url": "https://github.com/mavrin-xv"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mavrin-xv/ai-newsroom",
+  "repository": "https://github.com/mavrin-xv/ai-newsroom"
+}
